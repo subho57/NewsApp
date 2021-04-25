@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <!--    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">-->
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar.Bridge">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/colorTextPrimary</item>
+        <!--<item name="android:fontFamily">@font/roboto_slab_regular</item>-->
+    </style>
+
+    <style name="AppTheme.Headlines.TabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="AppTheme.Title" parent="TextAppearance.AppCompat.Title">
+        <item name="android:fontFamily">@font/roboto_slab_bold</item>
+    </style>
+
+    <style name="AppTheme.Headline.Title" parent="TextAppearance.AppCompat.Title">
+
+    </style>
+
+    <style name="AppTheme.OptionsBottomSheetButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">@dimen/options_bottom_sheet_medium</item>
+        <item name="android:background">?selectableItemBackground</item>
+        <item name="android:textColor">@color/option_item_tint_color</item>
+        <item name="android:textSize">@dimen/options_bottom_sheet_text</item>
+        <item name="android:drawablePadding">@dimen/options_bottom_sheet_medium</item>
+    </style>
+
+</resources>

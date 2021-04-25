@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <import type="com.github.subho57.newsapp.utils.BindingUtils" />
+
+        <variable
+            name="source"
+            type="com.github.subho57.newsapp.models.Source" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:clipToPadding="false"
+        android:paddingStart="@dimen/rv_horizontal_offset"
+        android:paddingTop="@dimen/rv_vertical_offset"
+        android:paddingEnd="@dimen/rv_horizontal_offset"
+        android:paddingBottom="@dimen/rv_vertical_offset">
+
+        <ImageView
+            android:id="@+id/iv_source_image"
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:contentDescription="@string/image_desc_source_image"
+            android:src="@color/cardBackground"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:sourceUrl="@{source.url}" />
+
+        <TextView
+            android:id="@+id/tv_source_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="@{source.name}"
+            android:textAppearance="@style/AppTheme.Headline.Title"
+            android:textColor="@color/colorTextSecondary"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/iv_source_image"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/sample_source" />
+
+        <TextView
+            android:id="@+id/tv_source_category"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@{BindingUtils.getSourceName(source.category, source.country)}"
+            android:textColor="@color/colorPrimaryLight"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@+id/tv_source_name"
+            app:layout_constraintStart_toStartOf="@+id/tv_source_name"
+            app:layout_constraintTop_toBottomOf="@+id/tv_source_name"
+            tools:text="@string/sample_category" />
+
+        <TextView
+            android:id="@+id/tv_source_desc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:alpha="0.8"
+            android:lineSpacingMultiplier="1.3"
+            android:text="@{source.description}"
+            android:textColor="@color/colorTextSecondary"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_source_image" />
+
+        <Button
+            android:id="@+id/btn_open"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/button_type_text_selector"
+            android:padding="10dp"
+            android:text="@string/bottom_sheet_option_open_in_browser"
+            android:textColor="@color/colorTextSecondary"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_source_desc" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,43 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">News App</string>
+
+    <string name="sample_source">BBC News • 1h</string>
+    <string name="sample_title">Why would Putin want to nuke Florida?</string>
+    <string name="sample_title_long">PM Narendra Modi\'s frivolous statements won\'t help create wedge between me and Congress: Amarinder Singh</string>
+    <string name="sample_description">The Sunshine State is home to Mr Trump\'s golf resort, but bigger targets lie elsewhere in the US.</string>
+    <string name="image_desc">Image for the News Post</string>
+
+    <string name="title_headlines">Headlines</string>
+    <string name="title_saved">Saved</string>
+    <string name="title_sources">Sources</string>
+
+    <string name="image_desc_share_button">share button</string>
+    <string name="image_desc_save_button">save button</string>
+    <string name="image_desc_open_in_browser_button">open in browser button</string>
+    <string name="image_btn_desc_next">Next Button</string>
+    <string name="image_btn_desc_prev">Previous Button</string>
+    <string name="bottom_sheet_option_save">Save for later</string>
+    <string name="bottom_sheet_option_share">Share</string>
+    <string name="bottom_sheet_option_open_in_browser">Open in browser</string>
+    <string name="button_read_full_story">read full story</string>
+
+    <string name="image_desc_source_image">Source Image</string>
+    <string name="sample_category">General</string>
+
+    <string name="message_item_saved">Article added to Saved</string>
+    <string name="message_item_removed">Article removed from Saved</string>
+    <string name="info_no_saved_articles">No Saved Articles</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="sample_page">1/5</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="first_title">Comprehensive</string>
+    <string name="first_desc">We collect the best pieces from around the web and combine them into a story</string>
+    <string name="second_title">Twice a day</string>
+    <string name="second_desc">Top stories delivered to you twice daily at times you choose</string>
+    <string name="third_title">Definitive</string>
+    <string name="third_desc">We surface the most important need-to-know news</string>
+    <string name="copyright">Made with 💙 by subho57</string>
+</resources>

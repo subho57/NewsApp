@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#424242</color>
+    <color name="colorPrimaryDark">#1b1b1b</color>
+    <color name="colorPrimaryLight">#6d6d6d</color>
+    <color name="colorAccent">#ced7db</color>
+    <color name="colorTextPrimary">#ffffff</color>
+    <color name="colorTextSecondary">#000000</color>
+    <color name="cardBackground">#ddd</color>
+    <color name="recyclerViewDivider">#61ced7db</color>
+    <color name="gradient_start">#7f000000</color>
+    <color name="gradient_end">#00000000</color>
+    <color name="option_item_tint_color">#ad000000</color>
+    <color name="dots_color">#FE2E64</color>
+    <color name="darker_gray">#aaa</color>
+
+    <color name="dark_yellow">#FE9A2E</color>
+    <color name="button_color">#01DFA5</color>
+</resources>

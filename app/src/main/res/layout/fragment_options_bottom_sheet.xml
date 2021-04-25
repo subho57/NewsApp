@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ui.news.rOptionsBottomSheet">
+
+        <Button
+            android:id="@+id/btn_share"
+            style="@style/AppTheme.OptionsBottomSheetButton"
+            android:drawableStart="@drawable/ic_share"
+            android:text="@string/bottom_sheet_option_share"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_save"
+            style="@style/AppTheme.OptionsBottomSheetButton"
+            android:drawableStart="@drawable/ic_save"
+            android:text="@string/bottom_sheet_option_save"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/btn_share"
+            app:layout_constraintTop_toBottomOf="@id/btn_share" />
+
+        <Button
+            android:id="@+id/btn_open_in_browser"
+            style="@style/AppTheme.OptionsBottomSheetButton"
+            android:drawableStart="@drawable/ic_open_in_browser"
+            android:text="@string/bottom_sheet_option_open_in_browser"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/btn_share"
+            app:layout_constraintTop_toBottomOf="@id/btn_save" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

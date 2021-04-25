@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/AppTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".ui.InfoActivity">
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent" />
+
+    <LinearLayout
+        android:id="@+id/indicator_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+</RelativeLayout>
