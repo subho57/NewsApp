@@ -4,7 +4,7 @@ Fetches news using the news API
 
 #### App Demo
 
-![App Demo](demoapp.gif | width=50)
+![App Demo](demoapp.gif =250x250)
 
 #### Download
 
