@@ -4,7 +4,7 @@ Fetches news using the news API
 
 #### App Demo
 
-[App Demo](https://github.com/subho57/NewsApp/raw/main/demoapp.gif)
+[App Demo](demoapp.gif)
 
 #### Download
 
